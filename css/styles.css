@@ -1,0 +1,156 @@
+/******************tag selector*******************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+span {
+  color: #bbdfc8;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  color: lightgrey;
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 0.5rem;
+}
+
+
+/******************class selector*******************/
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.face-image {
+  width: 200px;
+}
+
+.profile {
+  width: 30%;
+  margin: 100px auto 100px auto;
+}
+
+.music-img {
+  width: 25%;
+  margin-right: 30px;
+  float: left;
+}
+
+.pro-img {
+  width: 25%;
+  margin-left: 30px;
+  float: right;
+}
+
+.skills {
+  margin: 100px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-text {
+  text-align: left;
+}
+
+.contact-me {
+  line-height: 2;
+  margin: 100px auto 0 auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  line-height: 4;
+  margin-bottom: 0;
+  font-size: 0.5rem;
+}
+
+.btn {
+   background: #66BFBF;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Montserrat';
+   font-size: 16px;
+   font-weight: normal;
+   padding: 5px 20px 5px 20px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 100px;
+   margin-top: 50px;
+}
+
+.btn:hover {
+   background: #11999E;
+   border: solid #11999E 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+.bcl {
+  text-align: center;
+  width: 100%;
+}
